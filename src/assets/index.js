@@ -25,10 +25,18 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import bolt from "./company/bolt.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ok from "./ok.png";
+import no from "./no.png";
+import resu from "./resume.png";
+
+import babu from "./babu.jpg";
+import barnit from "./barnit.jpeg";
+import muth from "./muth.jpg";
 
 export {
   logo,
@@ -59,4 +67,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  ok,
+  no,
+  bolt,
+  babu,
+  muth,
+  barnit,
+  resu,
 };

@@ -23,6 +23,13 @@ import {
   jobit,
   tripguide,
   threejs,
+  ok,
+  no,
+  bolt,
+  babu,
+  muth,
+  barnit,
+  resu,
 } from "../assets";
 
 export const navLinks = [
@@ -81,10 +88,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -104,23 +107,15 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
     title: "Web Developer",
     company_name: "Bolt IOT",
-    icon: starbucks,
+    icon: bolt,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2023 - June 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -172,27 +167,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I thought it was impossible to make a website as beautiful as our product, but Yogiraj proved me wrong.",
+    name: "Sanidhya Srivastava",
     designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    company: "Milk Co",
+    image: babu,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I've never met a web developer who truly cares about their clients' success like Yogiraj does.",
+    name: "Pratyush Praneet",
     designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    company: "Muthuth Finance",
+    image: muth,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "After Yogiraj optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Varnit Singh",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "Chor Enterprises",
+    image: barnit,
   },
 ];
 
@@ -240,16 +235,16 @@ const projects = [
     source_code_link: "https://yogirajfulpagar.github.io/Corona-Map/",
   },
   {
-    name: "Trip Guide",
+    name: "Pokemon Game",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A clone on Pokemon Game with the help of Tiled for Game Map and Html, CSS, Javascript",
     tags: [
       {
-        name: "nextjs",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -258,7 +253,68 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://yogirajfulpagar.github.io/Pokemon/",
+  },
+  {
+    name: "Dog E",
+    description:
+      "Full Stack MERN AI Image Generation App MidJourney & DALL E Clone",
+    tags: [
+      {
+        name: "OpenAi",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Reactjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mern-Stack",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ok,
+    source_code_link: "https://dog-e-one.vercel.app/",
+  },
+  {
+    name: "DogeGPT",
+    description: "ChatGPT AI Application That Will Help You Code",
+    tags: [
+      {
+        name: "OpenAi",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Reactjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mern-Stack",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: no,
+    source_code_link: "https://dogimon-yogirajfulpagar.vercel.app/",
+  },
+  {
+    name: "Resume Analyzer",
+    description: "Analyzes your resume and suggest changes",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Streamlit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "KNN-Algorithm",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: resu,
+    source_code_link: "https://github.com/yogirajfulpagar/Resume-Analyzer",
   },
 ];
 
