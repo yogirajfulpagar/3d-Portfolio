@@ -13,10 +13,6 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
   tesla,
   shopify,
   carrent,
@@ -30,6 +26,8 @@ import {
   muth,
   barnit,
   resu,
+  ethos,
+  signalx,
 } from "../assets";
 
 export const navLinks = [
@@ -111,7 +109,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer",
+    title: "Software Developer Intern",
     company_name: "Bolt IOT",
     icon: bolt,
     iconBg: "#383E56",
@@ -123,45 +121,31 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "Software Developer Intern",
+    company_name: "SignalX.ai",
+    icon: signalx,
+    iconBg: "#E6DEDD",
+    date: "Jan 2024 - May 2024",
+    points: [
+      "Engineered MicroChecks backend (GST Check, MSME Check, Struck Oﬀ Check), leading to a 30% revenue increase.",
+      "Designed APIs for eﬃcient data retrieval, optimizing the common data pipeline and reducing retrieval time by 40%.",
+      "Devised continuous monitoring for third-party risk management, mitigating risks by 50% through evaluation of key data points",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Ethos",
+    icon: ethos,
+    iconBg: "#383E56",
+    date: "July 2024 - Present",
+    points: [
+      "Spearheaded Loyalty Program Phase 3, enhancing backend and frontend features to increase agent engagement by 30%.",
+      "Architected and deployed Gamification Project Phase 3, delivering scalable backend solutions for cash-reward games, increasing agent retention by 50%.",
+      "Enhanced RDS performance, cutting CPU utilization by 20% through strategic scheduling and autovacuum management.",
+      "Integrated NIPR ACH Authorization Modal with DocuSign, streamlining digital signing and reducing agent dues by 25%.",
+    ],
+  },
 ];
 
 const testimonials = [

@@ -26,6 +26,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import bolt from "./company/bolt.png";
+import ethos from "./company/ethos.png";
+import signalx from "./company/signalx.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -74,4 +76,6 @@ export {
   muth,
   barnit,
   resu,
+  ethos,
+  signalx,
 };
