@@ -35,7 +35,7 @@ import tripguide from "./tripguide.png";
 import ok from "./ok.png";
 import no from "./no.png";
 import resu from "./resume.png";
-import dogeflix from "./dogeflix.png";
+import dogeflix from "./doge.jpg";
 
 import babu from "./babu.jpg";
 import barnit from "./barnit.jpeg";
