@@ -35,6 +35,7 @@ import tripguide from "./tripguide.png";
 import ok from "./ok.png";
 import no from "./no.png";
 import resu from "./resume.png";
+import dogeflix from "./dogeflix.png";
 
 import babu from "./babu.jpg";
 import barnit from "./barnit.jpeg";
@@ -78,4 +79,5 @@ export {
   resu,
   ethos,
   signalx,
+  dogeflix,
 };

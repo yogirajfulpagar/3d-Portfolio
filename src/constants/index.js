@@ -28,6 +28,7 @@ import {
   resu,
   ethos,
   signalx,
+  dogeflix
 } from "../assets";
 
 export const navLinks = [
@@ -299,6 +300,26 @@ const projects = [
     ],
     image: resu,
     source_code_link: "https://github.com/yogirajfulpagar/Resume-Analyzer",
+  },
+  {
+    name: "DogeFlix",
+    description: "A Netflix Clone with ReactJS and Firebase",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dogeflix,
+    source_code_link: "https://dogeflix-lyart.vercel.app/",
   },
 ];
 

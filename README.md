@@ -36,5 +36,15 @@
 ### Installation
 
 ```sh
-git clone https://github.com/yogirajfulpagar/3d-
+git clone https://github.com/yogirajfulpagar/3d-Portfolio.git
+cd 3d-Portfolio
+npm install
+```
+
+### Running Locally
+
+After installing dependencies, start the development server with:
+
+```sh
+npm run dev
 ```
